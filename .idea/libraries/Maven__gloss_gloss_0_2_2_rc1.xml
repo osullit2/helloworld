@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: gloss:gloss:0.2.2-rc1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/gloss/gloss/0.2.2-rc1/gloss-0.2.2-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/gloss/gloss/0.2.2-rc1/gloss-0.2.2-rc1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/gloss/gloss/0.2.2-rc1/gloss-0.2.2-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
