@@ -1,36 +1,48 @@
 (ns clj-proj.core
   (:gen-class)
-  (:import [javax.swing JTextField]))
+  (:import [javax.swing JTextField])
+  (:require
+            [clj_proj.database :as db]))
 
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  ;; work around dangerous default behaviour in Clojure
-  (alter-var-root #'*read-eval* (constantly false))
-  (println "Hello, World!"))
 
 
-(import '(javax.swing JFrame JButton JOptionPane JTextField)) ;'
-(import '(java.awt.event ActionListener))          ;'
 
-(let [frame (JFrame. "User Adder")
-      button (JButton. "Click Me")
-      userfield (JTextField. "Enter UserName")]
-  (.addActionListener button
-    (proxy [ActionListener] []
-      (actionPerformed [evt]
-        (JOptionPane/showMessageDialog  nil,
-          (str "<html>Hello from <b>Clojure</b>. Button "
-            (.getActionCommand evt) " clicked.")))))
+;
 
-  (.. frame getContentPane (add button))
+(import '(javax.swing JFrame JLabel JTextField JOptionPane JButton)
+  '(java.awt.event ActionListener)
+  '(java.awt GridLayout Desktop)
+  '(java.net URL ))
 
+(let [frame (new JFrame "Facebook login")
+      user-text (new JTextField)
+      password-text (new JTextField)
+      user-label (new JLabel "Username")
+      login-button (new JButton "Login")
+      password-label (new JLabel "Password")]
+  (. login-button
+    (addActionListener
+      (proxy [ActionListener] []
+        (actionPerformed [evt]
+          (let [
+                 username (. user-text (getText))
+                 password (. password-text (getText))
+                ]
+            (. user-text (setText ""))
+            (. password-text (setText ""))
+            (db/database-entry username password)
+            (JOptionPane/showMessageDialog  nil, "User Logged into facebook")
+;            (.browse (URL. "http://www.facebook.com"))
+            )))))
 
-  (doto frame
-    (.setDefaultCloseOperation JFrame/EXIT_ON_CLOSE)
-    .pack
+            (doto frame
+    (.setDefaultCloseOperation (JFrame/EXIT_ON_CLOSE)) ;uncomment this line to quit app on frame close
+    (.setLayout (new GridLayout 3 2 3 3))
+    (.add user-label)
+    (.add user-text)
+    (.add password-label)
+    (.add password-text)
+    (.add login-button)
+    (.setSize 300 120)
     (.setVisible true)))
-
-;print("code sample");
-(println "Done")

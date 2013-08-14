@@ -35,8 +35,15 @@
     (println "Username: " (:name info) " \nPassword: " password )
     )))
 
-(select-from-database "TJ O Sullivan")
+;(select-from-database "TJ O Sullivan")
+(defn select-all-from-database
+  []
+  (doseq [info (j/query mysql-db
+                 (s/select * :users))]
+    (let [password (encr/decrypt (:password info) mykey)]
+      (println (format "Username: %s  Password: %s" (:name info) password)))))
 
-(println "Done")
+(select-all-from-database)
+;(println "Done")
 
 
