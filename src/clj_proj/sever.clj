@@ -10,4 +10,4 @@
     #(do (println %)
        (enqueue ch (str "You said " %)))))
 
-(start-tcp-server handler {:port 10000, :frame (string :utf-8 :delimiters ["\r\n"])})
+(start-tcp-server handler {:port 8888, :frame (string :utf-8 :delimiters ["\r\n"])})

@@ -4,11 +4,17 @@
     <list default="true" id="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" name="Default" comment="" />
     <ignored path="clj-proj.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/core.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376424446690" ignored="false" />
+    <file path="/core.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376509444731" ignored="false" />
     <file path="/sever.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1374932793710" ignored="false" />
-    <file path="/client.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1374932642087" ignored="false" />
+    <file path="/client.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376515569062" ignored="false" />
     <file path="/encrypter.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1374949332766" ignored="false" />
     <file path="/database.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376424146016" ignored="false" />
+    <file path="$USER_HOME$/webchatter/src/webchatter/core.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376509444731" ignored="false" />
+    <file path="$USER_HOME$/webchatter/src/webchatter/server.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376509587690" ignored="false" />
+    <file path="$USER_HOME$/webchatter/src/webchatter/client.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376515670214" ignored="false" />
+    <file path="$USER_HOME$/webchatter/project.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376509921579" ignored="false" />
+    <file path="$USER_HOME$/webchatter/pom.xml" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1376510032264" ignored="false" />
+    <file path="/http.clj" changelist="9c622c66-6a95-4a29-aa55-f8d1fe4e17c7" time="1377299050443" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,19 +75,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clj_proj/database.clj">
+      <file leaf-file-name="sever.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/clj_proj/sever.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="54" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
+            <state line="13" column="21" selection-start="323" selection-end="323" vertical-scroll-proportion="0.5313352">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="guiEG.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clj_proj/guiEG.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="21" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="14" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clj_proj/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="42" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.5648464">
+            <state line="47" column="26" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clj_proj/http.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="34" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clj_proj/client.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="20" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,13 +139,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/clj_proj/sever.clj" />
-        <option value="$PROJECT_DIR$/src/clj_proj/client.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/clj_proj/encrypter.clj" />
         <option value="$PROJECT_DIR$/src/clj_proj/guiEG.clj" />
         <option value="$PROJECT_DIR$/src/clj_proj/core.clj" />
         <option value="$PROJECT_DIR$/src/clj_proj/database.clj" />
+        <option value="$PROJECT_DIR$/src/clj_proj/sever.clj" />
+        <option value="$PROJECT_DIR$/src/clj_proj/client.clj" />
+        <option value="$PROJECT_DIR$/src/clj_proj/http.clj" />
       </list>
     </option>
   </component>
@@ -118,10 +161,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="24" />
-    <option name="width" value="1313" />
-    <option name="height" value="744" />
+    <option name="x" value="54" />
+    <option name="y" value="52" />
+    <option name="width" value="1311" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -150,7 +193,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,6 +235,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,6 +246,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="last_opened_file_path" value="$USER_HOME$/zxing-2.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -212,32 +256,10 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Clojure Script.database">
-    <configuration default="false" name="client" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+  <component name="RunManager" selected="Clojure Script.sever">
+    <configuration default="false" name="database" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="clj-proj" />
-      <setting name="path" value="$PROJECT_DIR$/src/clj_proj/client.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/clj_proj" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="encrypter" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clj-proj" />
-      <setting name="path" value="$PROJECT_DIR$/src/clj_proj/encrypter.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/clj_proj" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="guiEG" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="clj-proj" />
-      <setting name="path" value="$PROJECT_DIR$/src/clj_proj/guiEG.clj" />
+      <setting name="path" value="$PROJECT_DIR$/src/clj_proj/database.clj" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/clj_proj" />
@@ -257,9 +279,31 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="database" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration default="false" name="client" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="clj-proj" />
-      <setting name="path" value="$PROJECT_DIR$/src/clj_proj/database.clj" />
+      <setting name="path" value="$PROJECT_DIR$/src/clj_proj/client.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clj_proj" />
+      <setting name="repl" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="http" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clj-proj" />
+      <setting name="path" value="$PROJECT_DIR$/src/clj_proj/http.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clj_proj" />
+      <setting name="repl" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sever" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clj-proj" />
+      <setting name="path" value="$PROJECT_DIR$/src/clj_proj/sever.clj" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/clj_proj" />
@@ -366,19 +410,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Clojure Script.client" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Script.encrypter" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Script.guiEG" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Script.core" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Script.database" />
+      <item index="0" class="java.lang.String" itemvalue="Clojure Script.database" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Script.core" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Script.client" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Script.http" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Script.sever" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Clojure Script.database" />
-        <item index="1" class="java.lang.String" itemvalue="Clojure Script.core" />
-        <item index="2" class="java.lang.String" itemvalue="Clojure Script.guiEG" />
-        <item index="3" class="java.lang.String" itemvalue="Clojure Script.core" />
-        <item index="4" class="java.lang.String" itemvalue="Clojure Script.database" />
+        <item index="0" class="java.lang.String" itemvalue="Clojure Script.sever" />
+        <item index="1" class="java.lang.String" itemvalue="Clojure Script.http" />
+        <item index="2" class="java.lang.String" itemvalue="Clojure Script.client" />
+        <item index="3" class="java.lang.String" itemvalue="Clojure Script.client" />
+        <item index="4" class="java.lang.String" itemvalue="Clojure Script.sever" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -413,7 +457,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1313" height="744" extended-state="6" />
+    <frame x="54" y="52" width="1311" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -425,16 +469,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23520127" sideWeight="0.68" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2513834" sideWeight="0.6812081" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25651145" sideWeight="0.68" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2561265" sideWeight="0.6812081" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31879196" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -504,13 +548,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/clj_proj/database.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_proj/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -520,9 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_proj/database.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="17" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_proj/sever.clj">
@@ -552,46 +587,59 @@
         <state line="38" column="0" selection-start="1013" selection-end="1036" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="54" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj_proj/sever.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="193" selection-end="193" vertical-scroll-proportion="0.23037542" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj_proj/client.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="330" selection-end="330" vertical-scroll-proportion="0.30612245" />
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk1.7.0/src.zip!/java/awt/GridLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="13" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj_proj/guiEG.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="26" selection-start="22" selection-end="1631" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_proj/encrypter.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.80451125" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_proj/database.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="54" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="48" column="54" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.86644405" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj_proj/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="42" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.5648464">
+        <state line="47" column="26" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj_proj/guiEG.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="21" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj_proj/http.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj_proj/client.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj_proj/sever.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="323" selection-end="323" vertical-scroll-proportion="0.5313352">
           <folding />
         </state>
       </provider>
